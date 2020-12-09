@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css" />
+    <title>Evaluation Javascript</title>
+</head>
+<body>
+  <h1 class="text-center" style="background-color:lightgreen; color:#fff; padding-bottom:10px;">Le juste prix !</h1>
+  <p class="text-center">Le but du jeu est simple : Vous devez trouver le nombre caché ! Entre 0 et 200 !</p>
+    <form style="margin-left:40%; margin-top:50px;">
+        <div class="form-group" style="width:300px;">
+          <label for="nombre">Trouver le Nombre</label>
+          <input type="number" class="form-control" id="nombre" name="nombre" placeholder="Entrer un nombre" required>
+        </div>
+        <button type="submit" id="submit" class="btn btn-primary">Valider</button>
+      </form>
+      <div id="result" style="margin-left:40%;"></div>
+    
+</body>
+<script src="vendor/components/jquery/jquery.min.js"></script>
+<script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</html>

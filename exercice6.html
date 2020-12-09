@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css" />
+    <title>Evaluation Javascript</title>
+</head>
+<body>
+    <form style="margin-left:30%; margin-top:50px;">
+        <div class="form-group" style="width:300px;">
+          <label for="t1nb1" style="color:red; font-weight:bold;">Tableau 1</label>
+          <input type="number" class="form-control" id="t1nb1" name="t1nb1" placeholder="Nombre 1" required>
+        </div>
+        <div class="form-group" style="width:300px;">
+            <label for="t1nb2"></label>
+            <input type="number" class="form-control" id="t1nb2" name="t1nb2" placeholder="Nombre 2" required>
+          </div>
+          <div class="form-group" style="width:300px;">
+            <label for="t1nb3"></label>
+            <input type="number" class="form-control" id="t1nb3" name="t1nb3" placeholder="Nombre 3" required>
+          </div>
+          <div class="form-group" style="width:300px;">
+            <label for="t1nb4"></label>
+            <input type="number" class="form-control" id="t1nb4" name="t1nb4" placeholder="Nombre 4" required>
+          </div>
+          <div class="form-group" style="width:300px;">
+            <label for="t2nb1" style="color:red; font-weight:bold;">Tableau 2</label>
+            <input type="number" class="form-control" id="t2nb1" name="t2nb1" placeholder="Nombre 1" required>
+          </div>
+          <div class="form-group" style="width:300px;">
+            <label for="t2nb2"></label>
+            <input type="number" class="form-control" id="t2nb2" name="t2nb2" placeholder="Nombre 4" required>
+          </div>
+        <button type="submit" id="submit" class="btn btn-primary" style="margin-top:10px;">Valider</button>
+      </form>
+      <div id="result" style="margin-left:30%;"></div>
+    
+</body>
+<script src="vendor/components/jquery/jquery.min.js"></script>
+<script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</html>
